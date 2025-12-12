@@ -63,8 +63,8 @@ tabela_ocorrencia (principal)
 
 1. **Clone o repositório**
 ```bash
-git clone https://github.com/seu-usuario/projeto-bd-aeronautica.git
-cd projeto-bd-aeronautica
+git clone https://github.com/danieloliveira33/Banco-de-Dados.git
+cd Banco-de-Dados
 ```
 
 2. **Crie o banco de dados**
@@ -164,12 +164,6 @@ ORDER BY total DESC;
 - Análise crítica de estruturas legadas
 - Simulação de cenários corporativos reais
 
-## 📚 Documentação Adicional
-
-- [Relatório Completo (PDF)](docs/relatorio_completo.pdf)
-- [Apresentação Interativa](apresentacao/slides.html)
-- [Portal de Dados Abertos](https://dados.gov.br/dados/conjuntos-dados/ocorrencias-aeronauticas-da-aviacao-civil-brasileira)
-- [Documentação MySQL](https://dev.mysql.com/doc/)
 
 ## 🤝 Contribuições
 
@@ -180,21 +174,5 @@ Este é um projeto acadêmico, mas sugestões e melhorias são bem-vindas! Sinta
 3. Commit suas mudanças (`git commit -m 'Adiciona nova análise'`)
 4. Push para a branch (`git push origin feature/MinhaFeature`)
 5. Abrir um Pull Request
-
-## 📝 Licença
-
-Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
-
-## 📧 Contato
-
-Para dúvidas ou sugestões sobre o projeto:
-
-- **Instituição:** IF Baiano - Campus Guanambi
-- **Disciplina:** Fundamentos de Banco de Dados
-- **Ano:** 2025
-
----
-
-### ⭐ Se este projeto foi útil para você, considere dar uma estrela!
 
 **Nota:** Os dados utilizados são públicos e disponibilizados pela Força Aérea Brasileira através do portal de dados abertos do governo federal. Este projeto tem fins exclusivamente acadêmicos e educacionais.
