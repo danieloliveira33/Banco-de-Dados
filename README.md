@@ -51,36 +51,6 @@ tabela_ocorrencia (principal)
 - **MySQL Workbench** - Interface de desenvolvimento
 - **SQL** - Linguagem de consulta e manipulação
 
-## 🚀 Como Executar
-
-### Pré-requisitos
-
-- MySQL Server 8.0 ou superior
-- MySQL Workbench (recomendado)
-- Base de dados disponível em: [dados.gov.br](https://dados.gov.br/dados/conjuntos-dados/ocorrencias-aeronauticas-da-aviacao-civil-brasileira)
-
-### Passo a Passo
-
-1. **Clone o repositório**
-```bash
-git clone https://github.com/danieloliveira33/Banco-de-Dados.git
-cd Banco-de-Dados
-```
-
-2. **Crie o banco de dados**
-```bash
-mysql -u root -p < schema_setup.sql
-```
-
-3. **Importe os dados**
-- Baixe os CSVs do portal de dados abertos
-- Importe via MySQL Workbench (Table Data Import Wizard)
-
-4. **Execute as conversões e consultas**
-```bash
-mysql -u root -p acidentes_aeronaves < data_conversion.sql
-mysql -u root -p acidentes_aeronaves < queries.sql
-```
 
 ## 🔍 Principais Desafios e Soluções
 
